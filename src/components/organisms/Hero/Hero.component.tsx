@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoIosArrowDropdownCircle } from 'react-icons/io';
+import { MdCloudDownload } from 'react-icons/md';
 
 import {
   Spotlight,
@@ -36,13 +37,22 @@ const Hero = () => {
             Hi, I&apos;m Akif, a Junior Frontend Developer based in Purwokerto,
             Indonesia
           </p>
-          <a href="#about">
-            <Button
-              title="Show my works"
-              icon={<IoIosArrowDropdownCircle className="text-lg" />}
-              iconPosition="end"
-            />
-          </a>
+          <div className="flex gap-2">
+            <a href="#about">
+              <Button
+                title="Show my works"
+                icon={<IoIosArrowDropdownCircle className="text-lg" />}
+                iconPosition="end"
+              />
+            </a>
+            <a download href="">
+              <Button
+                title="Download CV"
+                icon={<MdCloudDownload className="text-lg" />}
+                iconPosition="end"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>

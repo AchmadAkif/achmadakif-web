@@ -1,10 +1,13 @@
-import { Hero } from '@/components';
+import { Hero, Navbar, Grid } from '@/components';
+import { navItems } from '../../data';
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10">
+    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto px-5 sm:px-10">
       <div className="max-w-7xl w-full">
+        <Navbar navItems={navItems} />
         <Hero />
+        <Grid />
       </div>
     </main>
   );

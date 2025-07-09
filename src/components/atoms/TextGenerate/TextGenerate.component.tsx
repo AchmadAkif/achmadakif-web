@@ -1,5 +1,5 @@
 'use client';
-import { TextGenerateEffect } from './text-generate-effect';
+import { TextGenerateEffect } from '../TextGenerateEffect';
 import { TextGenerateProps } from './TextGenerate.types';
 
 export default function TextGenerateEffectDemo({

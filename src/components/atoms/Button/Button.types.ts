@@ -3,4 +3,5 @@ export type ButtonProps = {
   icon?: React.ReactNode;
   iconPosition?: 'start' | 'end';
   handleClick?: () => void;
+  otherClasses?: string;
 };
