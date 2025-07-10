@@ -38,7 +38,7 @@ const Hero = () => {
             Purwokerto, Indonesia
           </p>
           <div className="flex gap-2">
-            <a href="#about">
+            <a href="#projects">
               <Button
                 title="Show my works"
                 icon={<IoIosArrowDropdownCircle className="text-lg" />}
