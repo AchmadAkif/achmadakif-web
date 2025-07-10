@@ -70,9 +70,9 @@ export const gridItems = [
   },
 ];
 
-export const leftLists = ['ReactJS', 'Express', 'Typescript', 'Redux'];
+export const leftLists = ['ReactJS', 'NextJS', 'Typescript', 'Redux'];
 
-export const rightLists = ['NextJS', 'ReactJS', 'Supabase'];
+export const rightLists = ['Tanstack', 'ReactJS', 'Supabase'];
 
 export const projects = [
   {

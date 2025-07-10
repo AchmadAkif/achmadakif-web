@@ -34,8 +34,8 @@ const Hero = () => {
             className="text-center text-[32px] md:text-5xl lg:text-6xl"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-blue-100">
-            Hi, I&apos;m Akif, a Junior Frontend Developer based in Purwokerto,
-            Indonesia
+            Hi, I&apos;m Achmad Akif, a Junior Frontend Developer based in
+            Purwokerto, Indonesia
           </p>
           <div className="flex gap-2">
             <a href="#about">
