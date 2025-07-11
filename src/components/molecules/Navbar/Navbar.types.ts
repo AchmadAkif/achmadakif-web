@@ -5,6 +5,6 @@ export type NavItemTypes = {
 };
 
 export type NavbarProps = {
-  navItems: NavItem[];
+  navItems: NavItemTypes[];
   className?: string;
 };
