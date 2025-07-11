@@ -1,4 +1,10 @@
-import { Hero, Navbar, Grid, RecentProjects } from '@/components';
+import {
+  Hero,
+  Navbar,
+  Grid,
+  RecentProjects,
+  TimelineSection,
+} from '@/components';
 import { navItems } from '../../data';
 
 export default function Home() {
@@ -9,6 +15,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <TimelineSection />
       </div>
     </main>
   );

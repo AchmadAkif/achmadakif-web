@@ -2,15 +2,16 @@ import React from 'react';
 import Image from 'next/image';
 import { FaLocationArrow } from 'react-icons/fa';
 
+import { SectionTitle } from '@/components/atoms';
 import { projects } from '../../../../data';
 
 const RecentProjects = () => {
   return (
     <section id="projects" className="py-20">
-      <h1 className="heading text-white">
+      <SectionTitle>
         A small selection of {''}{' '}
         <span className="text-purple">recent projects</span>
-      </h1>
+      </SectionTitle>
       <div className="flex flex-wrap justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(
           ({ id, title, des, img, iconLists, link, isDeployed }) => (
