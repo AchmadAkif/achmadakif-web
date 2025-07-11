@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { FaLocationArrow } from 'react-icons/fa';
+import { GoArrowUpRight } from 'react-icons/go';
 
 import { SectionTitle } from '@/components/atoms';
 import { projects } from '../../../../data';
@@ -71,7 +71,7 @@ const RecentProjects = () => {
                   <p className="font-medium lg:text-2xl md:text-xl text-purple">
                     Check {isDeployed ? 'Live Site' : 'Repository'}
                   </p>
-                  <FaLocationArrow color="#CBACF9" />
+                  <GoArrowUpRight size={25} color="#CBACF9" />
                 </a>
               </div>
             </div>

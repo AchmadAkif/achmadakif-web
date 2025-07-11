@@ -1,7 +1,7 @@
 export const navItems = [
   { name: 'About', link: '#about' },
   { name: 'Projects', link: '#projects' },
-  { name: 'Journey', link: '#timeline' },
+  { name: 'Experiences', link: '#timeline' },
   { name: 'Contact', link: '#contact' },
 ];
 
@@ -78,8 +78,14 @@ export const projects = [
     id: 1,
     title: 'BurnAlyze - Aplikasi Deteksi Luka Bakar',
     des: 'Smart burn detection app that classifies burn severity from images and provides proper first aid recommendations.',
-    img: '/burnalyze_home.png',
-    iconLists: ['/re.svg', '/tail.svg', '/js.svg', '/mui.svg', '/rdx.svg'],
+    img: '/captures/burnalyze_home.png',
+    iconLists: [
+      '/brand_logo/re.svg',
+      '/brand_logo/tail.svg',
+      '/brand_logo/js.svg',
+      '/brand_logo/mui.svg',
+      '/brand_logo/rdx.svg',
+    ],
     link: 'https://burnalyze.netlify.app/',
     isDeployed: true,
   },
@@ -87,14 +93,14 @@ export const projects = [
     id: 2,
     title: 'Karangsuci Landing CMS',
     des: 'A content management system designed for Pondok Pesantren Al-Hidayah Purwokerto to easily manage and update their landing page content.',
-    img: '/klcms-login.png',
+    img: '/captures/klcms_login.png',
     iconLists: [
-      '/re.svg',
-      '/tail.svg',
-      '/ts.svg',
-      '/mui.svg',
-      '/rdx.svg',
-      '/spb.svg',
+      '/brand_logo/re.svg',
+      '/brand_logo/tail.svg',
+      '/brand_logo/ts.svg',
+      '/brand_logo/mui.svg',
+      '/brand_logo/rdx.svg',
+      '/brand_logo/spb.svg',
     ],
     link: 'https://github.com/KarangsuciProject/karangsuci-landing-cms',
     isDeployed: false,
@@ -104,32 +110,39 @@ export const projects = [
 export const timelineData = [
   {
     title: 'On Going',
-    desc: 'Currently building a custom-built Content Management System for Pondok Pesantren Al-Hidayah Purwokerto. This app will allow administrators to manage and update their institution landing page efficiently through a secure and user-friendly dashboard.',
-    images: ['/klcms_login.png', '/klcms_visimisi.png'],
+    desc: 'Currently developing a custom Content Management System for Pondok Pesantren Al-Hidayah Purwokerto as a Frontend Developer. Iam working collaboratively with other engineers using React. Implemented authentication by integrating with the existing Karangsuci API and leveraging Supabase for seamless data synchronization with the landing page.',
+    images: '/karangsuci_logo.jpg',
+    company: 'Pondok Pesantren Karangsuci Al-Hidayah',
+    role: 'Frontend Developer',
   },
   {
-    title: 'May 2025',
+    title: 'Feb 2025',
     desc: 'Burnalyze is a collaborative project between Web developers and Machine Learning Engineers built during my bootcamp program. I worked as a Fullstack Developer, co-developing the frontend in React.js, building the backend with Node.js and Express, and integrating it with the AI model via a FastAPI wrapper.',
-    images: [
-      '/burnalyze_home.png',
-      '/burnalyze_edukasi.png',
-      '/burnalyze_login.png',
-      '/burnalyze_deteksi.png',
-    ],
+    images: '/cc_logo.jpg',
+    company: 'Coding Camp 2025 powered by DBS',
+    role: 'Fullstack Developer',
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: '/git.svg',
+    img: '/brand_logo/git.svg',
+    link: 'https://github.com/AchmadAkif',
   },
   {
     id: 2,
-    img: '/twit.svg',
+    img: '/brand_logo/insta.svg',
+    link: 'https://www.instagram.com/_achmadakif/',
   },
   {
     id: 3,
-    img: '/link.svg',
+    img: '/brand_logo/link.svg',
+    link: 'https://www.linkedin.com/in/achmad-akif-bachtiar-76814a193/',
+  },
+  {
+    id: 4,
+    img: '/brand_logo/wha.svg',
+    link: 'https:/wa.me/6287734611259',
   },
 ];

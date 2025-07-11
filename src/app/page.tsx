@@ -4,6 +4,7 @@ import {
   Grid,
   RecentProjects,
   TimelineSection,
+  FooterSection,
 } from '@/components';
 import { navItems } from '../../data';
 
@@ -16,6 +17,7 @@ export default function Home() {
         <Grid />
         <RecentProjects />
         <TimelineSection />
+        <FooterSection />
       </div>
     </main>
   );
