@@ -7,3 +7,4 @@ export * from './Spotlight';
 export * from './TextGenerate';
 export * from './TextGenerateEffect';
 export * from './TimelineComponent';
+export * from './GridGlobe';

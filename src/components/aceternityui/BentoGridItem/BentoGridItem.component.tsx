@@ -6,6 +6,7 @@ import { IoCopyOutline } from 'react-icons/io5';
 import { useState } from 'react';
 
 import { Button } from '@/components/atoms';
+import { GridGlobe } from '../GridGlobe';
 import { leftLists, rightLists } from '../../../../data';
 
 import { BackgroundGradientAnimation } from '../GradientBg';
@@ -87,6 +88,9 @@ const BentoGridItem = ({
           >
             {title}
           </div>
+
+          {/* for the github 3d globe */}
+          {id === 2 && <GridGlobe />}
 
           {/* Tech stack list div */}
           {id === 3 && (
