@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoIosArrowDropdownCircle } from 'react-icons/io';
+import { FaFileDownload } from 'react-icons/fa';
 
 import {
   Spotlight,
@@ -41,6 +42,13 @@ const Hero = () => {
               <Button
                 title="Show my works"
                 icon={<IoIosArrowDropdownCircle className="text-lg" />}
+                iconPosition="end"
+              />
+            </a>
+            <a download href="/cv_achmad-akif-bachtiar.pdf">
+              <Button
+                title="Download CV"
+                icon={<FaFileDownload className="text-lg" />}
                 iconPosition="end"
               />
             </a>
