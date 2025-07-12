@@ -86,8 +86,8 @@ export const projects = [
       '/brand_logo/mui.svg',
       '/brand_logo/rdx.svg',
     ],
-    link: 'https://burnalyze.netlify.app/',
-    isDeployed: true,
+    link: 'https://github.com/CC25-CF199',
+    isDeployed: false,
   },
   {
     id: 2,
