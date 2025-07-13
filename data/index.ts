@@ -102,7 +102,7 @@ export const projects = [
       '/brand_logo/rdx.svg',
       '/brand_logo/spb.svg',
     ],
-    link: 'https://github.com/AchmadAkif/karangsuci-landing-cms',
+    link: 'https://github.com/KarangsuciProject/karangsuci-landing-cms',
     isDeployed: false,
   },
 ];
