@@ -1,6 +1,7 @@
 import React from 'react';
 import { IoIosArrowDropdownCircle } from 'react-icons/io';
 import { FaFileDownload } from 'react-icons/fa';
+import Link from 'next/link';
 
 import {
   Spotlight,
@@ -38,20 +39,20 @@ const Hero = () => {
             Purwokerto, Indonesia
           </p>
           <div className="flex gap-2">
-            <a href="#projects">
+            <Link href="#projects">
               <Button
                 title="Show my works"
                 icon={<IoIosArrowDropdownCircle className="text-lg" />}
                 iconPosition="end"
               />
-            </a>
-            <a download href="/cv_achmad-akif-bachtiar.pdf">
+            </Link>
+            <Link download href="/cv_achmad-akif-bachtiar.pdf">
               <Button
                 title="Download CV"
                 icon={<FaFileDownload className="text-lg" />}
                 iconPosition="end"
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
