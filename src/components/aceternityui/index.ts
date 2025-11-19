@@ -1,6 +1,5 @@
 export * from './BentoGrid';
 export * from './BentoGridItem';
-export * from './DotBackground';
 export * from './GradientBg';
 export * from './GridBackground';
 export * from './Spotlight';

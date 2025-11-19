@@ -2,14 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaLocationArrow } from 'react-icons/fa';
 
-import { DotBackground } from '@/components/aceternityui';
 import { SectionTitle, Button } from '@/components/atoms';
 import { socialMedia } from '../../../../data';
 
 const FooterSection = () => {
   return (
     <footer id="contact" className="w-full pt-56 pb-10">
-      <DotBackground position="bottom-0 left-0" />
       <div className=" relative z-10">
         <div className="flex flex-col items-center gap-5">
           <SectionTitle otherClasses="lg:max-w-[42vw]">
