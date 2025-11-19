@@ -2,6 +2,7 @@ export * from './BentoGrid';
 export * from './BentoGridItem';
 export * from './GradientBg';
 export * from './GridBackground';
+export * from './DotBackground';
 export * from './Spotlight';
 export * from './TextGenerate';
 export * from './TextGenerateEffect';
