@@ -105,12 +105,34 @@ export const projects = [
     link: 'https://github.com/KarangsuciProject/karangsuci-landing-cms',
     isDeployed: false,
   },
+  {
+    id: 3,
+    title: 'ZMATH LMS',
+    des: 'ZMATH enables teachers to curate learning materials and dynamic quizzes. Students access these resources through a unified dashboard, allowing them to study and test their knowledge in one secure platform.',
+    img: '/captures/zmath.png',
+    iconLists: [
+      '/brand_logo/next.svg',
+      '/brand_logo/tail.svg',
+      '/brand_logo/ts.svg',
+      '/brand_logo/mui.svg',
+      '/brand_logo/spb.svg',
+    ],
+    link: 'https://zmath-lms.vercel.app/',
+    isDeployed: true,
+  },
 ];
 
 export const timelineData = [
   {
-    title: 'On Going',
-    desc: 'Currently developing a custom Content Management System for Pondok Pesantren Al-Hidayah Purwokerto as a Frontend Developer. Iam working collaboratively with other engineers using React. Implemented authentication by integrating with the existing Karangsuci API and leveraging Supabase for seamless data synchronization with the landing page.',
+    title: 'Nov 2025',
+    desc: 'ZMATH is a full-stack LMS engineered to handle both content delivery and student assessment. Utilizing Supabase for the backend, I implemented a relational schema that links course materials and quizzes to specific subjects and student cohorts. Key features include a secure file distribution system for subject resources, a real-time quiz engine, and strict Row Level Security (RLS) to ensure students can only access materials and grades authorized for their specific role.',
+    images: null,
+    company: 'Private Client',
+    role: 'Frontend Developer',
+  },
+  {
+    title: 'Jun 2025',
+    desc: 'Developed a custom Content Management System for Pondok Pesantren Al-Hidayah Purwokerto as a Frontend Developer. I worked collaboratively with other engineers using React. Implemented authentication by integrating with the existing Karangsuci API and leveraging Supabase for seamless data synchronization with the landing page.',
     images: '/karangsuci_logo.jpg',
     company: 'Pondok Pesantren Karangsuci Al-Hidayah',
     role: 'Frontend Developer',
