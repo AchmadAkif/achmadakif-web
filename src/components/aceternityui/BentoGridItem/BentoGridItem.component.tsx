@@ -3,7 +3,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { cn } from '@/lib/utils';
 import { IoCopyOutline } from 'react-icons/io5';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import { Button } from '@/components/atoms';
 import { GridGlobe } from '../GridGlobe';
@@ -23,6 +23,20 @@ const BentoGridItem = ({
   spareImg,
 }: BentoGridItemProps) => {
   const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') {
+        setCopied(false);
+      }
+    };
+
+    window.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => {
+      window.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, []);
 
   const handleCopy = () => {
     const text = 'achmadakif7@gmail.com';
