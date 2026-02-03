@@ -8,7 +8,7 @@ import { socialMedia } from '../../../../data';
 
 const FooterSection = () => {
   return (
-    <footer id="contact" className="w-full pt-56 pb-10">
+    <footer id="contact" className="w-full pt-56`">
       <DotBackground>
         <div className=" relative z-10">
           <div className="flex flex-col items-center gap-5">
