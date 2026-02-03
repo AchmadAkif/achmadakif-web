@@ -102,8 +102,8 @@ export const projects = [
       '/brand_logo/rdx.svg',
       '/brand_logo/spb.svg',
     ],
-    link: 'https://github.com/KarangsuciProject/karangsuci-landing-cms',
-    isDeployed: false,
+    link: 'https://karangsuci-landing-cms-dev.pages.dev/',
+    isDeployed: true,
   },
   {
     id: 3,
