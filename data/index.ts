@@ -126,9 +126,9 @@ export const timelineData = [
   {
     title: 'Nov 2025',
     desc: 'ZMATH is a full-stack LMS engineered to handle both content delivery and student assessment. Utilizing Supabase for the backend, I implemented a relational schema that links course materials and quizzes to specific subjects and student cohorts. Key features include a secure file distribution system for subject resources, a real-time quiz engine, and strict Row Level Security (RLS) to ensure students can only access materials and grades authorized for their specific role.',
-    images: null,
+    images: '/private_client.png',
     company: 'Private Client',
-    role: 'Frontend Developer',
+    role: 'Fullstack Developer',
   },
   {
     title: 'Jun 2025',
