@@ -50,11 +50,11 @@ export const gridItems = [
 
   {
     id: 5,
-    title: 'Currently building a Content Management System',
-    description: 'Karangsuci Landing CMS',
+    title: 'Currently building ReactMap - a React component visualizer tool',
+    description: 'ReactMap',
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
-    titleClassName: 'justify-center md:justify-start lg:justify-center',
+    titleClassName: 'justify-between',
     img: '/b5.svg',
     spareImg: '/grid.svg',
   },
@@ -115,6 +115,7 @@ export const projects = [
       '/brand_logo/tail.svg',
       '/brand_logo/ts.svg',
       '/brand_logo/mui.svg',
+      '/brand_logo/zst.svg',
       '/brand_logo/spb.svg',
     ],
     link: 'https://zmath-lms.vercel.app/',

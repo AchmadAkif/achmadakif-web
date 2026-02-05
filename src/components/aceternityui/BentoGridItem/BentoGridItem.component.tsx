@@ -4,6 +4,7 @@
 import { cn } from '@/lib/utils';
 import { IoCopyOutline } from 'react-icons/io5';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 import { Button } from '@/components/atoms';
 import { GridGlobe } from '../GridGlobe';
@@ -94,12 +95,28 @@ const BentoGridItem = ({
             'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'
           )}
         >
-          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+          {id === 5 && (
+            <div className="flex justify-end">
+              <a href="https://github.com/AchmadAkif/ReactMap" target="_blank">
+                <button className="relative lg:h-12 h-10 lg:w-12 w-10 inline-flex overflow-hidden rounded-md p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                  <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                  <span className="inline-flex h-full cursor-pointer items-center justify-center rounded-md bg-slate-950 text-sm font-medium text-white backdrop-blur-3xl">
+                    <Image
+                      src={'/brand_logo/git.svg'}
+                      alt="github"
+                      width={50}
+                      height={50}
+                      className="p-2"
+                    />
+                  </span>
+                </button>
+              </a>
+            </div>
+          )}
+          <div className="mt-auto flex font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
           </div>
-          <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
-          >
+          <div className="mb-auto font-sans text-lg lg:text-3xl max-w-96 font-bold z-10">
             {title}
           </div>
 
